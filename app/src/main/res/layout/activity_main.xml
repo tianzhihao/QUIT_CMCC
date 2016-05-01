@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhihao.quit_cmcc.MainActivity">
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
+            android:text="刷新以加载登陆界面"/>
+        <Button
+            android:id="@+id/btn_alertinfo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
+            android:text="修改CMCC_EDU认证信息"/>
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
+            android:text="CMCC-EDU下线"/>
+</LinearLayout>
